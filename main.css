@@ -9,24 +9,39 @@
     "m c c c c c c c c c c ."
     "m c c c c c c c c c c ."
     "m c c c c c c c c c c .";
-  max-width: 1722px;
-  min-height: 1117px;
+  
   margin: 0 auto;
 }
+
 
 /* Grid Areas */
 .header { 
     grid-area: h; 
-    background-color: #181818;
+      h1{
+      color:white
+    }
+
     }
 .menu { 
     grid-area: m; 
-    background-color: #181818;
+      h1{
+      color:white
+    }
+
     }
 .content { 
     grid-area: c; 
-    background-color: #2B2B2B;
+    color:lightskyblue;
+        h1{
+      color:#FFCC00
     }
- 
+    
+    }
+
+body{
+  background-image: url("assets/poopoo-but.png");
+  background-size:cover;
+  font-family: ;
+}
 
 
